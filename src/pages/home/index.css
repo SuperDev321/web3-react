@@ -1,0 +1,24 @@
+@media screen and (min-width: 1200px) {
+  .roadmap-item {
+    justify-content: center !important;
+    align-items: center !important;
+    flex:1;
+    width: 850px !important;
+    margin-top: 25px !important;
+  }
+  .item-20 {
+    margin-left: 190px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .item-20 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .roadmap-item {
+    justify-content: center !important;
+    align-items: center !important;
+    flex:1;
+    margin-top: 25px !important;
+  }
+}

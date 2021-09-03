@@ -1,0 +1,33 @@
+.map-element-root {
+    display: flex;
+    position: relative;
+}
+
+.map-element-percent {
+    padding:6px;
+    font-size:16px;
+    font-weight:700;
+    color:white;
+    width: 50px;
+    height: 50px;
+    background: #1a2bf8;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    top:-7px;
+    left: -11px;
+    border: 5px solid #fff;
+}
+
+.map-element-detail {
+    margin-top: 43px;
+    /* margin-bottom: 43px; */
+    border-left: 4px solid #ff0;
+    padding: 0px 0px 15px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .map-element-detail {
+        margin-bottom: 43px;
+    }
+}
